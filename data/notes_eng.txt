@@ -1,0 +1,666 @@
+1. Spacebar -> 64; Wait -> 2
+2. 3
+3. 4
+4. Enter -> 5
+5. 6
+6. 7
+7. Enter -> 8
+8. Enter -> 9
+9. Enter -> 10
+10. Enter -> 11
+11. Enter -> 12
+12. 13
+13. Enter, spacebar or wait -> 14
+14. 15
+15. 16
+16. Going right -> 17; Die 6 times -> 76; Touch the wounded triangular wizard -> 143
+17. 18
+18. 19
+19. 20
+20. 21
+21. Door -> 22; Get eaten by Venus flytrap (40% event chance) -> 464
+22. "Very hard" squeeze in -> 23; Bottom right corner of the pit -> 202
+23. Enter -> 24
+24. Tunnel -> 137; Crevice -> 32; House -> 25
+25. Collect all pellets -> 26; Manage to catch the flashing pellet within 22 ms -> 177
+26. 27
+27. Going right -> 28; Press the up arrow key in the middle of the mouth -> 64
+28. Land on lad -> 34; Touch mushroom (if 500 has been visited at least 4 times) or (if 98 is ever visited) -> 35; Mushroom (if 500 has been visited less than 4 times) -> 500
+29. 30
+30. 31
+31. 66% chance (if 484 is not visited) -> 32; Chance didn't work (if 484 is not visited) -> 484; forced instant transition (if 484 is visited) -> 530
+32. (active meta rhizome location is not 204) -> 33; (active meta rhizome location is 204) -> 232
+33. Enter (none of the meta rhizome locations visited) -> 34; Enter (active meta rhizome location is 56) -> 153; Enter (active meta rhizome location is 98/204/368/350/476) -> 473
+34. Enter -> 35
+35. Mutant extermination -> 36; Die -> 655
+36. 37
+37. Enter -> 38
+38. 39
+39. Leave -> 53; Touch electric Furby -> 40
+40. Enter -> 41
+41. 42
+42. Kill Chiggly -> 43; Die -> 100
+43. Enter -> 44
+44. Enter -> 45
+45. Enter or wait -> 46
+46. 47
+47. Grey mesh on the right -> 48; Shapeshifting creatures on the left -> 85; Factory trashcan on fire to the left -> 214; Pink mirrored Euro -> 157; Anguished block face -> 72; Fall -> 148; ` -> Extra game close button
+48. Mad purple blob -> 81; Cage -> 49; ` -> Extra game close button
+49. 50
+50. 51
+51. 128
+52. Enter -> 53; Spacebar or wait -> 114
+53. Going right, or leftmost up out of bounds -> 54; Shell -> 60; Going up out of bounds, but righter (jumping) -> 229
+54. 131
+55. Going right -> 128; Upwards leftmost out of bounds -> 54
+56. Spacebar -> 31; Wait -> 57
+57. 63
+58. Going right -> 59; Enter -> 58 (Level restart)
+59. 107
+60. 61
+61. Ireland -> 56; NESSIE -> 104; zoom! BELLFAST -> 108
+62. Breakout -> 92; Green crippled troll -> 116
+63. Fish -> 181
+64. Window -> 329; Door on the left -> 105; Door on the right -> 65
+65. Doorway to the left -> 64; Going right -> 69; Fall down Mole's pit -> 66
+66. Going right or entering the doorway -> 67
+67. Rocks -> 68; Nose -> 94
+68. Doorway -> 115
+69. Car -> 307; Bees -> 91
+70. Rocks -> 71; Nose -> 62
+71. 72
+72. 73
+73. Enter -> 74
+74. Collect all the goods -> 107; Die 6 times -> 75
+75. Insect -> 76
+76. Fall down the left hole -> 49; Yellow fellow -> 77
+77. Shoot 6 times -> 78; Touch organism -> 99; Switch player and enemy role by shooting 5 times, and then move out of bounds -> 208
+78. 79
+79. 82
+80. Spacebar -> 49; Wait -> 81
+81. 33% chance, forced instant transition -> 142; Visit 4 times, forced instant transition (easily done with screen 120) -> 52; Wait (less than 4 visits) -> 120
+82. Die from wizard -> 83; Green church building blocks out of boys -> 145; Toothy transparent toy -> 406
+83. War -> 87
+84. Spacebar or wait -> 85
+85. Spacebar -> 66; Wait -> 96
+86. Cloud temple -> 175; Spacebar or down arrow key near catterpillar's blood fountain head to get swallowed -> 149
+87. TV -> 111
+88. 89
+89. Enter -> 129; Wait -> 148
+90. Enter -> 91; Spacebar -> 74
+91. Enter -> 92
+92. Enter or spacebar -> 93
+93. Fish -> 138; DACH -> 127
+94. Man -> 122
+95. Hip-Hop Apple's Teddy Massacre -> 50; Wait for 16 seconds -> 109; Grabbed by hand at the middle of the bottom -> 232
+96. 97
+97. Tubed specimen -> 130; Cyclope (upside down pyramid) fruit up top -> 103; Toad zombie -> 129; Going right -> 98
+98. Bartender -> 149; Leave the saloon -> 365/366/367/368/369/370/371/372
+99. Going left or right -> 100
+100. Take spine connected to head and leave -> 104
+101. 53
+102. Press T -> 215; Battle City success and portal entrance -> 104
+103. Cave on the right -> 417; Squirrel's mushroom -> 108
+104. Mouthy face (if 444 is visited) -> 210; Going left -> 110; Die or instakill character by pressing 0 -> 95; Going down -> 105
+105. Going up -> 87; Going left -> 58; Going down -> 106
+106. 107
+107. Going right -> 88; Manhole -> 78
+108. Trigger on top next to a tad bit right off center -> 274; Going right -> 109
+109. 55
+110. 96
+111. Go back -> 112; Get proper treatment from bridgekeeper and go back -> 99
+112. Touching the energy sphere and losing all your HP (red bar on the left) -> 86; Goal on the left by slowly shooting just enough to explode the faces flying at you, or letting faces touch you -> 113
+113. Going left -> 132; Die -> 103; Eye -> 92
+114. Enter (active meta rhizome location is 476) -> 530; Enter (active meta rhizome location is 476) -> 342
+115. 82
+116. 144
+117. 142
+118. Going left -> 107; Die -> 136; Jacob's Ladder (if 285 is visited) -> 279; Jacob's Ladder (if 285 is not visited) -> 285
+119. You aren't supposed to be here.
+120. Enter -> 79; Shift -> 69; Press R -> 121
+121. 81
+122. Enter -> 60
+123. Enter or spacebar -> 124
+124. 125
+125. 126
+126. Going left -> 152; Wait -> 157
+127. Going left/right -> 102; Going up -> 55; Green face (25% chance) -> 140; Purple hooded figure's face (if 302 is visited) -> 306; Going down (if 73 or 488 is visited) -> 480; Going down (if 73 or 488 is not visited) -> 73
+128. Invisible triggers surrounding everywhere -> 55; Spacebar after 17 seconds -> 125; The path downwards and to the right -> 282; Gal -> 117; Door -> 98
+129. Green face -> 108; Arch -> 90
+130. Spacebar or wait -> 136
+131. Spacebar or wait for 14 seconds -> 132
+132. Invisible trigger near cloud -> 258; Dark plant -> 246; Gargoyle -> 129
+133. Descend down glowing platform by pressing the down arrow key -> 387; Going right -> 134
+134. Going anywhere out of bounds except a bit higher to the left side's center -> 135; Touching the butterfly after it's metamorphosis into 305 cutscene of an eaten frog or going out of bounds a bit higher to the left side's center -> 305
+135. Top chicken -> 93; Bottom chicken -> 131; Pink substance spheres -> 62; Green crystal -> 175; Purple crystal -> 91
+136. Green face -> 73; Going right -> 137
+137. 3 screens above the start, static lizard -> 138; and tunnel arch -> 144; 4 screens to the left and 4 screens to the top from the start, entrance into miner's historical discovery about money -> 140; 4 screens to the right and 3 screens down from the start, gradient hut -> 492; 1 screen down and 5 screens to the left from the start, plant -> 416; 4 screens to the left, then 4 screens up, doorway -> 360
+138. Ant -> 148; Fangs -> 144; Out of bounds -> 139
+139. Destroy the block to the very right with the bullet dispenser on top left by touching jumping creatures with your mouth in order to move the dispenser's bullets downwards within 3 seconds -> 140; 3 seconds -> 87
+140. Enter or spacebar -> 354
+141. 84
+142. Tongue -> 127; Left eye -> 265; Right eye -> 101
+143. Die -> 141; Cow -> 133; Out of bounds -> 144
+144. Bare-knuckle lady -> 145; Use bird's help while avoiding 16 lady's troops -> 90; Use bird but squish 12 troops -> 137
+145. Enter after 2 seconds -> 146; Sardines -> 166; Kitty -> 48; Dead kitty -> 123; Lawnmoving -> 164; Rainbow cloud (if 462 is visited) -> 389
+146. 147
+147. 108
+148. Out of bounds -> 149; After 9 seconds -> 95; Carrot (if 148 is visited at least 2 times) -> 506
+149. Enter, spacebar or 16 seconds -> 150
+150. 151
+151. First entrance -> 168; Red down arrow -> 152; Going right -> 95; Walk down to the first surface dip, then go back to the red arrow -> 116
+152. Scatman's hat to the left -> 159; Anguished inhaling man to the right -> 311; Fall -> 153
+153. Spacebar or wait -> 154
+154. 155
+155. 156
+156. Press up on the wall -> 273; Just walk -> 161
+157. 158
+158. After 5 seconds -> 148
+159. Enter -> 139
+160. After 2 seconds -> 170
+161. Black hole or guy with purple hair who appears after breaking all eggs -> 160; Break all eggs then black hole -> 154; Green face appearing after shooting the chicken 12 times -> 162; Green leech sliding to black hole and back -> 234; Green face, but after breaking all eggs -> 162 (Laxative mode)
+162. Hound -> 235; Touch moon -> 64; Shoot moon -> 259; Shoot red haired cryptid under bridge -> 283; Going right or pressing enter after 2 seconds -> 163; Out of bounds -> 127
+163. Turducken -> 39; Going right -> 176
+164. Jellyfish -> 165; Skull -> 287; Left eye -> 209; Right eye -> 210
+165. Touch blue pupils (or the same 1 twice) in dark eyes up top: With purple fox -> 192; With blue pilot's face -> 93
+166. Escape button -> 165; Going right -> 167
+167. Fall off -> 83; Also falling, right -> 82; Give disc to the sun -> 461
+168. Touching orbital red gem: After killing 1 zombie -> 191; After killing 2 zombies -> 355; Pacifist: (active meta rhizome location is not 476) -> 342; (active meta rhizome location is 476) -> 530
+169. Going left -> 170; Going right -> 175; Green creature crying blood -> 400
+170. 169
+171. 240
+172. 213
+173. Spacebar after 2 seconds -> 172
+174. Because it's for good -> 152; Because it contains gremlins -> 131; Yumcha! -> 176
+175. Enter after 1 second -> 112; Wait for 3 seconds -> 142
+176. 126
+177. Out of bounds -> 178; Die to enemy -> 401; Collect all pellets -> 259
+178. Lead pop art to bottom -> 320; Wait for 12 seconds -> 457
+179. Enter or spacebar -> 147
+180. Going right -> 146
+181. 174
+182. House -> 183
+183. Spacebar or wait for 6 seconds -> 384
+184. 185
+185. Enter or wait -> 186
+186. Enter or wait -> 187
+187. Enter, spacebar or wait -> 379
+188. Enter -> 189
+189. 190
+190. 50% chance -> 194; Chance didn't work -> 386
+191. Spacebar or wait for 10 seconds -> 183
+192. Planet rat nipple 1CC -> 354; Die -> 293
+193. Enter -> 178
+194. Enter or wait -> 195
+195. 196
+196. Enter (10% chance) -> 381; Chance didn't work -> Close the game 
+197. Touch the apparition -> 314; Going right -> 288
+198. 199
+199. Pressing spacebar on the bottom left pit -> 331; Going off the screen -> 200
+200. 328
+201. Cat graffiti -> 453; Going left or right -> 208
+202. 26
+203. Forest skull -> 204; Fortress skull -> 205; Red creature -> 248
+204. 30
+205. 30
+206. Destroy propeller-head's and lab -> 211; Die -> 357
+207. Going off the screen -> 319; Robot (if 270 is not visited) -> 270; Robot (if 270 is visited) -> 267
+208. Beautiful girl -> 215; SAFETY EXIT DOOR ZONE -> 209; Shoot 12 times to the right in-between the floors and turn the girl into an exit -> 102
+209. Bird -> 219; Sigil -> 118
+210. 425
+211. Escape crogulation -> 393; Crogulation -> 212; Ace Phalous with head (if 211 is visited at least 2 times) -> 660;
+212. 448
+213. Mantis -> 486; Blob -> 428
+214. 132
+215. 247
+216. Hug ceiling -> 217; Going left -> 398; Going right -> 395
+217. Going right: (if 285 is not visited) -> 218; (if 285 is visited) -> 400
+218. 236
+219. Flying off the screen -> 311; Bright symmetrical face (if 219 has been visited at least 2 times) -> 442
+220. Going left -> 411; Going right -> 311; Pipe -> 604
+221. Going right -> 235; Going down -> 253; Going left -> 243; Fairy -> 219
+222. Going right -> 281; Going left or down -> 223
+223. 224
+224. Going left or right -> 225; Pumpkin -> 397
+225. 226
+226. Going left or right -> 227; Butterfly -> 304
+227. Going left, right or down -> 228; Going up -> 462; Dying -> 301
+228. Going left -> 229; Going right -> 245; Going down -> 360
+229. Going right -> 306; Going left -> 409; Face -> 173
+230. 388
+231. (if 471 or 497 are not visited) -> 471; (if 471 or 497 are visited) -> 512
+232. 233
+233. 234
+234. Going right -> 338
+235. Going left or right -> 257; Forking inverted elder -> 146
+236. 580
+237. The slightly broken emporium -> 214; THE AIDS SHOP!!! -> 271; Going right or left -> 330
+238. Going any side -> 239; Wyane's Bar -> 297
+239. Ice cream -> 501; Going right or left -> 240
+240. 241
+241. Lava -> 336; Going right -> 349; Out of bounds -> 242
+242. Spacebar or after 4 seconds (active meta rhizome location is not 476) -> 476; (active meta rhizome location is 476) -> 474
+243. Lava -> 179; Metal fairy -> 212; Out of bounds -> 244
+244. 222
+245. 304
+246. 266
+247. 414
+248. Out of bounds -> 249; Red house -> 362; Gothic castle -> 452; House with yellow roof -> 412; Blue palace -> 425
+249. Heart -> 244; Green building -> 301; Cyclope -> 229; Red part of volcano -> 374
+250. Enter -> 253
+251. 390
+252. Crash (if 211 is not visited) -> 211; (if 211 is visited) -> 208; Land at red lander -> 401
+253. Enter or spacebar -> 445
+254. Kill >= 12 pinks if no more spawned in time, or kill >= 12 pinks and wait (if 254 is visited less than 2 times) -> 250; (if 254 is visited at least 2 times) -> 657
+255. 220
+256. Going right -> 225; Orange painting (3 eye punches) -> 454; Green painting (2 eye punches) -> 322; Blue painting (1 eye punch, if 417 is not visited) -> 417; Blue painting (if 417 is visited) -> 440
+257. Animated window -> 252; Window with curtains -> 250; Colour field window (if 341 is not visited) -> 341; Colour field window (if 341 is visited) -> 353
+258. Enter -> 292
+259. Enter -> 4; Mouth -> 366; Sea creature -> 264
+260. 313
+261. Skull (if 302 is not visited) -> 326; Skull (if 302 is visited) -> 526
+262. Going right -> 335; Alien -> 252
+263. Colorful long-snout -> 272; Cat -> 264
+264. Fly agaric -> 337; Screaming faces entrance (if 264 is visited at least 2 times) -> 441
+265. Spacebar -> 142; Wait for 4 minutes 33 seconds -> 502
+266. Press spacebar 5 times -> 200; Going forward with up arrow key -> 280; Wait for 1 minute -> 298
+267. Going forward with up arrow key -> 327
+268. Forced instant transition (if 269 is visited at least 2 times) -> 502; Otherwise, after 6 seconds -> 269
+269. 40% chance while going forward (and additional 1 in 2 chance) -> 359; 1 in 2 chance didn't work -> 354; 40% chance didn't work while moving forward -> 400; Going forward (active meta rhizome location is 268) -> 172
+270. Going forward with up arrow key -> 456
+271. Survive for 5 seconds -> 605; Die -> 466
+272. Going forward with up arrow key -> 492
+273. Going forward with up arrow key -> 274/275/276/277/278/279/280/281/282/283/284/285/286/287/288; Holding down arrow key for 2-3 seconds, waiting about 5 seconds, then going forward with up key (must be done for more than 12 seconds) -> 274
+274. 275
+275. After 12 seconds -> 231
+276. After 3.5 seconds (if 277 is not visited) -> 277; (if 277 is visited) -> 459
+277. Going forward with up arrow key -> 221
+278. After 5 seconds -> 442
+279. Going forward with up arrow key -> 299
+280. Going forward with up arrow key -> 328
+281. Going forward with up arrow key -> 356
+282. Going forward with up arrow key -> 255
+283. Going forward with up arrow key -> 417
+284. Going forward with up arrow key -> 544
+285. Going forward with up arrow key (if 197 is not visited) -> 197; (if 197 is visited) -> 474
+286. Going forward with up arrow key -> 498
+287. Escape button -> 286; Going off the screen or picking up 8 eyes (for each missed shot an eye falls) -> 288; Swimming off the screen as diver -> 253; Eat all fish -> 331
+288. Get under cave with a hand's help -> 278; Going off the screen -> 289
+289. Going under the stairs to the right -> 607; Bacteriophage (may or may not appear) or going right -> 290
+290. 291
+291. Going right (if 285 is not visited) -> 292; (if 285 is visited) -> 217
+292. Kill reds -> 293; Die -> 378
+293. 294
+294. Exit -> 262
+295. Crush skulls -> 296
+296. Out of bounds -> 391; Bar -> 297; Cave -> 369
+297. 389
+298. Spacebar or after 5 seconds -> 299
+299. Spacebar or after 5 seconds (if 285 is not visited) -> 467; (if 285 is visited) -> 291
+300. Spacebar or after 5 seconds -> 305
+301. Spacebar or after 5 seconds -> 469
+302. Spacebar or after 5 seconds -> 52
+303. Enter (if 350 is not visited) -> 350; Enter or spacebar (if 350 is visited) -> 467
+304. Flying off the screen (if 304 is visited less than 2 times) -> 261; (if 304 is visited at least 2 times) -> 511
+305. Spacebar, enter or after 6 seconds -> 303
+306. Kill 50 enemies -> 498; Die -> 307
+307. Get ahead of 40 cars -> 323; Car crash -> 479
+308. Flying 1500 or flying off the screen -> 309; Dying -> 197
+309. Destroy 14 enemies -> 237; Going off the screen -> 310
+310. Find note -> 346
+311. 368
+312. Left mouse button, enter or after 0.5 seconds -> 116
+313. 300
+314. Spacebar or after 0.5 seconds (if 315 is not visited) -> 315; (if 315 is visited) -> 235
+315. 316
+316. Fellow on the bottom right -> 371; Going left or out of bounds: (if 318 is not visited) -> 317; (if 318 is visited) -> 331
+317. 318
+318. 319
+319. 216
+320. Going left -> 482; ZUUL -> 334
+321. Spacebar on head that turns red when you touch it -> 481; Going off the screen: (if 315 is not visited) -> 315; (if 315 is visited) -> 469
+322. Die 5 times -> 177; Beat the level -> 323; Out of bounds -> 388
+323. Going down or right -> 324; Going upper right (if 269 is not visited) -> 268; (if 269 is visited) -> 267
+324. Photo (appears after touching 3 blue heads) -> 254; Touching every head and running across the screen (at a random location, an invisible tile appears that slowly approaches you) -> 325
+325. 326
+326. Spacebar -> 302; Press Enter or going right -> 327
+327. Shapeshift into a ladybug -> 328; Pixel perfect jump over monsters to go right -> 454
+328. Going left -> 138; Going down -> 390
+329. TV -> 84; Door -> 269; Out of bounds or down arrow -> 330
+330. Kill 21 red creatures -> 192; Touch 4 green ships -> 193
+331. Going right -> 664; Die -> 486; Stone (if 331 was visited at least 2 times) -> 524
+332. Talk to rude jelly fish -> 490; forced instant transition(if 332 is visited at least 2 times) -> 284
+333. 308
+334. 335
+335. Out of bounds (hold down arrow key) or mushroom -> 415
+336. Bacteriophage -> 263; Bouncing circles -> 430; Flying off the screen -> 316
+337. Shooting the goblet of fire -> 171; Going right -> 345
+338. 339
+339. Explode all circles -> 215; Devil -> 198
+340. Cavemen or Quetzalcoatlus -> 466; Going right -> 601
+341. 488
+342. 343
+343. 344
+344. 485
+345. 346
+346. Enter (if 347 is not visited) -> 347; Enter (if 347 is visited) -> 288
+347. Going off the screen -> 334; Furby -> 366; Doorway -> 368; Fire hydrant -> 312
+348. Elephant: (if 413 is not visited) or out of bounds -> 413; (if 413 is visited) -> 458; Graphic jawed monster: (if 332 is not visited) -> 332; (if 332 is visited) -> 330
+349. Portal -> 350; Die by Grug -> 354
+350. Fish -> 321; Home -> 351; Copypaste to death -> 249
+351. 352
+352. Swimming (active meta rhizome location is not 98) or going right -> 203; Swimming (active meta rhizome location is 98) -> 468
+353. Die -> 498; Destroying AI -> 454
+354. Turquoise face (active meta rhizome locations is not 350) -> 303; (active meta rhizome location is 350, but 405 is not visited) -> 402; (active meta rhizome location is 350 and 405 is visited) -> 407
+355. Manhole -> 356; Pickle balloon -> 352; Jacob's Ladder -> 286
+356. Stomach -> 300; Doorway (if 356 is visited at least 2 times) -> 254
+357. 358
+358. Going right -> 359; Getting eaten -> 346
+359. Take and pass over the ball between the left player -> 366; Take and pass over the ball between the right player -> 295; Going left, right, or putting the ball under your neck -> 227
+360. 199
+361. 458
+362. Going right or falling off the screen -> 363; Going left -> 356
+363. Going left or right -> 364; Octopus (random spawn chance) -> 471
+364. 351 Nelly points -> 372; Red creature -> 446; Green foot -> 365
+365. The one who tries to help reach the castle (if 285 is not visited) -> 285; (if 285 is visited) -> 279
+366. Going right -> 367; Going left -> 276
+367. Out of bounds -> 368; Going left -> 207
+368. Going right -> 336; Getting eaten -> 523
+369. Out of bounds -> 370; Dinosaur -> 299; Mummy image -> 387
+370. 353
+371. Going left -> 251; Up arrow key at doorway -> 603
+372. Going right -> 412; Going left -> 400
+373. 374
+374. Going right -> 375; ` -> Extra game close button
+375. Enter or going left or right (if 489 is not visited) -> 376; Going left or right (if 489 is visited) -> 304; Eat 6 carrots -> 391
+376. Cross the road and head up -> 541; Die (489 is not visited) -> 489; Die (if 489 is visited) -> 502; ` -> Extra game close button
+377. Blue skulls -> 410; Destroy every blue skull -> 328; Sun icon -> 389; Green face -> 408; Hop off -> 450; ` -> Extra game close button
+378. Going off the screen -> 426; Blue and green eye -> 457
+379. 380
+380. 383
+381. Mash left mouse button, spacebar, or enter many times or wait for 11 seconds -> 382
+382. Close the game after heart attack
+383. 385
+384. 184
+385. Spacebar or after 6 seconds -> 491
+386. 195
+387. Die -> 318; Collect all goblets and leave -> 238
+388. 524
+389. Pink face -> 396; EXIT -> 428; Hatted woman who likes birds (if 462 is visited) -> 492
+390. 375
+391. 157
+392. 448
+393. Eye (if 405 is not visited) -> 403; Eye (if 405 is visited) -> 270
+394. 458
+395. Agent lizard -> 259; Rock or going off the screen -> 429
+396. Press spacebar under triple chin grinning pipe -> 540; Going middle right (if 277 is not visited) -> 277; (if 277 is visited) -> 517
+397. Pumpkin -> 331; Fish (if 397 is visited at least 2 times) -> 599
+398. Catch 7 fishes -> 355; Catch a shark -> 377
+399. Going right -> 501; Otherwise, after 7 seconds -> 277
+400. Going off the screen (if 285 is not visited) -> 235; Cat (if 285 is not visited) -> 264; Going off the screen/Cat (if 285 is visited and 73/488 is not) -> 488; Going off the screen/Cat (if 285 is visited and 73/488 too) -> 510
+401. After 1 second (if 175 is not visited) -> 175; After 1 second (if 175 is visited) -> 218
+402. 403
+403. 404
+404. Any button or wait -> 405
+405. 276
+406. 407
+407. Carrot ship -> 605; Collect every flower -> 321; Die -> 260
+408. Out of bounds -> 409; Kill old lady -> 334
+409. Going right -> 410; Wasp -> 456 
+410. 394
+411. Destroy every soul and touch the fallen critter -> 201; Pull lever 11 times -> 302
+412. Demon -> 282; Duck -> 348; Alien -> 347; Dinosaur -> 346; Empty the screen of all arrows -> 315
+413. Wheelchaired human -> 449; Pineapple that falls while holding the up arrow key on the left X poster (if 413 is visited at least 2 times) -> 271
+414. Enter, spacebar or after 6 seconds -> 415
+415. Enter, spacebar or after 1 second -> 475
+416. 230
+417. 418
+418. 419
+419. 420
+420. 421
+421. 422
+422. 423
+423. 424
+424. 392
+425. Poisonous jellyfish -> 267; Going right -> 426
+426. Going left or touching the jumping enemy 7 times -> 427; Chomper -> 278; Going down -> 492
+427. Deer after exploding the 3-eyed with long pants, or waiting for 44 seconds -> 428
+428. Going right or dying 3 times -> 429; Pink coral -> 348
+429. 430
+430. Beat the level (if 431 is not visited) -> 431; Beat the level (if 431 is visited) -> 397
+431. Reach 100 points -> 347; Die, or PSYCHIC INJURY! (3 times) or pink thing up left -> 432; Survive for 2:01 (best place is bottom middle) -> 413
+432. Any button or after 2 seconds -> 433
+433. 434
+434. Insect in a skirt -> 435; Apple -> 442
+435. 436
+436. 437
+437. 438
+438. 439
+439. 440
+440. 441
+441. Going left or right -> 375; Entrance after brainstorming -> 322
+442. Going left or right -> 495; Pressing the up arrow key on the right center -> 542
+443. 444
+444. 445
+445. 446
+446. Busk for money -> 447; Eat a grapefruit -> 178; Enter the ape zone -> 256
+447. Enter -> 458
+448. Going left or right -> 363; Catch the hatted face (25% chance) -> 461
+449. Spacebar to make and take bullets -> 358
+450. 451
+451. 452
+452. 453
+453. 459
+454. Lead 1 to the liquor store -> 493; Lead 2 or more to the liquor store -> 526
+455. Going off the screen -> 465; Dying -> 463; Getting every potion and killing every enemy (if 493 is not visited) -> 493; (if 493 is visited) -> 457
+456. 463
+457. 332
+458. Die -> 251; Going left -> 206; Flashing smudged face -> 444; Injured face -> 457
+459. Going left -> 244; Going right -> 340
+460. Destroy ships and collect item (if 405 is not visited) -> 402; (if 405 is visited) -> 513
+461. Spacebar: Order a pizza -> 197; Watch TV -> 203; Put head in blendy -> 256; Enter: Order a pizza -> 211; Watch TV -> 209; Put head in blendy -> 208
+462. Orange-yellow beast -> 393; Cheese shaped tower -> 464; Pit (if 462 is visited at least 3 times) -> 284; Bug -> 220/221/222/223/224/225/226/227/228
+463. Die 5 times -> 481; Colorful face -> 496
+464. 460
+465. Enter: (if 347 is not visited) -> 402; (if 347 is visited) -> 401
+466. Going right -> 455; Summon dragon by standing near a chomper, and then after the dragon vanishes press the down arrow key near the flashing darkness at the bottom -> 416
+467. Colorful cloud -> 470; Cheese shaped model -> 462
+468. Oscar the Grouch -> 397; Sieg Hase -> 467
+469. Rabbit or going left -> 473
+470. Out of bounds -> 471; Orange-yellow beast (if 405 is not visited) -> 465; Orange-yellow beast (if 405 is visited) -> 503; Booby trap (471/497 and 583 are not visited) -> 497; Booby trap (471/497 is visited and 583 is not) -> 583; Booby trap (471/497 and 583 are visited) -> 598
+471. Circle face -> 469; Going right -> 462
+472. 469
+473. 474
+474. Going down or the armless goat -> 462; Daruma (if 510 is visited at least 2 times) -> 512
+475. Any key or after 2 seconds (if 475 is not visited) -> 484; (if 475 is visited) -> 510
+476. Going off the screen -> 477; Quicksand (if 476 is visited at least 2 times) -> 539
+477. Going right or down -> 478; Green sprite square head -> 467; Colorful circle face near the bottom exit (if 493 is not visited) -> 493; (if 493 is visited) -> 401
+478. Enter -> 479
+479. 317
+480. Enter -> 513
+481. Enter -> 178
+482. Enter -> 327
+483. 581
+484. Spacebar, enter or after 3 seconds -> 261
+485. Spacebar or after 4 seconds -> 242
+486. Spacebar -> 487
+487. 255
+488. Spacebar, enter or after 4 seconds -> 209
+489. 333
+490. 209
+491. 483
+492. Beetles -> 377; Turquoise way after picking up every onion -> 213; Red way (appears after turning to turquoise way) -> 448
+493. 494
+494. 495
+495. Sewer -> 500; Alaskan Bull Slug -> 455
+496. Hypno concretic circle (if 361 is not visited) -> 361; Hypno concretic circle (if 361 is visited) -> 510
+497. 499
+498. Spacebar or wait -> 454
+499. 489
+500. Collect all mushrooms (if 98 or 500 is visited) -> 28; All mushrooms (if 495 is visited) -> 468
+501. Going left -> 237; Dying -> 180
+502. Collect collect collect collect collect collect collect collect collect collect collect collect collect -> 503
+503. Crawling right -> 606; Stumbling (if 606 is visited) -> 656
+504. Going right or left -> 505; Forced instant transition (if boss in 505 is killed) -> 657
+505. Going right -> 446; Thunderstruck or touched by Furby -> 598; Kill Furby and press the down arrow key on hole -> 540
+506. Going left -> 256; Going right -> 512; Doorway -> 353; Camel -> 507
+507. 508
+508. 509
+509. 503
+510. (if 510 is visited 2 times) -> 474; (if 510 is visited 3 times) -> 580; (if 510 is visited at least 4 times) -> 604
+511. 512
+512. TL;DR, just watch the video
+513. 514
+514. 515
+515. Going up or right -> 516
+516. 519
+517. Yes -> 518; No -> 538
+518. Going up -> 436; Going down -> 391; Pit after touching -_- -> 454; Die to arrows that spawn after breaking mushroom and touching -_- -> 389; Pipe after you plant 8 flowers by pressing spacebar and touch -_- -> 376
+519. 520
+520. 543
+521. 182
+522. 523
+523. Out of bounds or fish -> 537; Going left -> 660
+524. Going right -> 525; Dying -> 505
+525. Left doorway -> 504; Noclipping worms -> 506; Turquoise turret -> 526
+526. 468
+527. 528
+528. 529
+529. 530
+530. 304
+531. Enter -> 532
+532. 533
+533. Enter -> 534
+534. 535
+535. 536
+536. 537
+537. Rapid flowers or shooting any of the 2 faces for some time (if 537 is visited less than 2 times) -> 583; (if 537 is visited at least 2 times and 608 is not visited) -> 608; (if 537 is visited at least 2 times and 608 is visited) -> 518
+538. Dolphin or clawed animal -> 539; Zombie -> 541; After 4 seconds -> 540
+539. SPAFF! or going up -> 602; Going down -> 462; Climbing down -> 506
+540. Leftmost entrance -> 496; Rightmost entrance -> 348
+541. Die 5 times -> 468; Complete the frog triptych -> 471
+542. Die -> 230; Doorway -> 539
+543. 584
+544. 545
+545. 546
+546. 547
+547. 548
+548. 549
+549. 550
+550. 551
+551. 552
+552. 553
+553. 554
+554. 555
+555. 556
+556. 557
+557. 558
+558. 559
+559. 560
+560. Spacebar or wait -> 561
+561. Spacebar or wait -> 562
+562. 563
+563. Enter or wait -> 564
+564. 565
+565. 566
+566. 567
+567. 568
+568. 569
+569. 570
+570. 571
+571. 572
+572. 573
+573. 574
+574. 575
+575. 576
+576. Enter or wait -> 577
+577. 578
+578. Enter or wait -> 579
+579. 182
+580. 513
+581. 582
+582. 188
+583. (if 484 is visited) -> 510; (if 484 is not visited) -> 476
+584. 585
+585. Spacebar or wait -> 586
+586. 587
+587. Spacebar -> 588
+588. 589
+589. 590
+590. 591
+591. Rene Magritte's pipe picking up fishhead from the La La Land series then going on any path -> 592
+592. 593
+593. 594
+594. 595
+595. 596
+596. 597
+597. 182
+598. 599
+599. Going right -> 600; Impaled -> 583
+600. 527
+601. (if 341 is not visited) -> 341; (if 341 is visited) -> 271
+602. Going left -> 466; Electrocuted -> 472
+603. Right entrance -> 506; Up entrance -> 602; Moon entrance to the left -> 371
+604. Going left -> 480; Going right -> 523
+605. 507
+606. 531
+607. Going down -> 389; Going up -> 512
+608. 609
+609. 610
+610. 611
+611. 612
+612. 613
+613. Kill some ghosts -> 614
+614. 615
+615. 616
+616. 617
+617. 618
+618. 619
+619. 620
+620. 522
+621. Spacebar or wait -> 622
+622. Enter or wait -> 623
+623. Enter, spacebar or wait -> 624
+624. 625
+625. 626
+626. 627
+627. 628
+628. 629
+629. 630
+630. 631
+631. 632
+632. 633
+633. 634
+634. 635
+635. 636
+636. 637
+637. 638
+638. 639
+639. 640
+640. 641
+641. 642
+642. 643
+643. 644
+644. 645
+645. Shooting -> 646
+646. 647
+647. 648
+648. 649
+649. 650
+650. 651
+651. 652
+652. 653
+653. 654
+654. 284
+655. 36
+656. 621
+657. 658
+658. 659
+659. Poison fire -> 442
+660. 661
+661. 662
+662. Going down -> 663; Going right -> 412; Dying -> 538
+663. Going left or getting stung by a wasp -> 409; House -> 503
+664. Door -> 665; Die -> 486
+665. Defeat the boss -> 666; Die -> 486
+666. Defeat the boss -> 443
