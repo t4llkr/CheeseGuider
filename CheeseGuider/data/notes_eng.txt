@@ -313,7 +313,7 @@
 313. 300
 314. Spacebar or after 0.5 seconds (if 315 is not visited) -> 315; (if 315 is visited) -> 235
 315. 316
-316. Fellow on the bottom right -> 371; Going left or out of bounds: (if 318 is not visited) -> 317; (if 318 is visited) -> 331
+316. Fellow on the bottom right -> 371; Going left or out of bounds (if 318 is not visited) -> 317; (if 318 is visited) -> 331
 317. 318
 318. 319
 319. 216
@@ -329,7 +329,7 @@
 329. TV -> 84; Door -> 269; Out of bounds or down arrow -> 330
 330. Kill 21 red creatures -> 192; Touch 4 green ships -> 193
 331. Going right -> 664; Die -> 486; Stone (if 331 was visited at least 2 times) -> 524
-332. Talk to rude jelly fish -> 490; forced instant transition(if 332 is visited at least 2 times) -> 284
+332. Talk to rude jelly fish -> 490; forced instant transition (if 332 is visited at least 2 times) -> 284
 333. 308
 334. 335
 335. Out of bounds (hold down arrow key) or mushroom -> 415

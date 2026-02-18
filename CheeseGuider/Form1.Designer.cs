@@ -47,7 +47,7 @@
             richTextBox1 = new RichTextBox();
             label5 = new Label();
             label6 = new Label();
-            label7 = new Label();
+            keyLocationsList = new Label();
             label8 = new Label();
             label9 = new Label();
             rhizome_56 = new TextBox();
@@ -57,6 +57,7 @@
             rhizome_350 = new TextBox();
             rhizome_476 = new TextBox();
             multiplePathCheckbox = new CheckBox();
+            ShowFutureCheckBox = new CheckBox();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDown2).BeginInit();
             SuspendLayout();
@@ -64,7 +65,7 @@
             // idlabel
             // 
             idlabel.AutoSize = true;
-            idlabel.Location = new Point(536, 161);
+            idlabel.Location = new Point(530, 161);
             idlabel.Name = "idlabel";
             idlabel.Size = new Size(59, 15);
             idlabel.TabIndex = 0;
@@ -84,7 +85,7 @@
             transitionsList.Name = "transitionsList";
             transitionsList.ReadOnly = true;
             transitionsList.ScrollBars = RichTextBoxScrollBars.Vertical;
-            transitionsList.Size = new Size(223, 202);
+            transitionsList.Size = new Size(223, 216);
             transitionsList.TabIndex = 1;
             transitionsList.Text = "";
             // 
@@ -104,7 +105,7 @@
             journeyHistory.Name = "journeyHistory";
             journeyHistory.ReadOnly = true;
             journeyHistory.ScrollBars = RichTextBoxScrollBars.Vertical;
-            journeyHistory.Size = new Size(366, 145);
+            journeyHistory.Size = new Size(366, 123);
             journeyHistory.TabIndex = 1;
             journeyHistory.Text = "";
             // 
@@ -119,9 +120,9 @@
             // 
             // videoRedirect
             // 
-            videoRedirect.Location = new Point(389, 392);
+            videoRedirect.Location = new Point(389, 406);
             videoRedirect.Name = "videoRedirect";
-            videoRedirect.Size = new Size(223, 40);
+            videoRedirect.Size = new Size(223, 26);
             videoRedirect.TabIndex = 4;
             videoRedirect.Text = "Watch the YT video about this location";
             videoRedirect.UseVisualStyleBackColor = true;
@@ -138,7 +139,7 @@
             // LocationNamesCheckbox
             // 
             LocationNamesCheckbox.AutoSize = true;
-            LocationNamesCheckbox.Location = new Point(12, 312);
+            LocationNamesCheckbox.Location = new Point(12, 290);
             LocationNamesCheckbox.Name = "LocationNamesCheckbox";
             LocationNamesCheckbox.Size = new Size(372, 19);
             LocationNamesCheckbox.TabIndex = 5;
@@ -222,7 +223,7 @@
             label5.FlatStyle = FlatStyle.Flat;
             label5.Location = new Point(12, 334);
             label5.Name = "label5";
-            label5.Size = new Size(164, 74);
+            label5.Size = new Size(272, 74);
             label5.TabIndex = 6;
             label5.TextAlign = ContentAlignment.TopCenter;
             // 
@@ -230,29 +231,29 @@
             // 
             label6.AutoSize = true;
             label6.BackColor = SystemColors.ControlLight;
-            label6.Location = new Point(39, 334);
+            label6.Location = new Point(94, 334);
             label6.Name = "label6";
             label6.Size = new Size(114, 15);
             label6.TabIndex = 10;
             label6.Text = "Key locations visited";
             // 
-            // label7
+            // keyLocationsList
             // 
-            label7.BackColor = SystemColors.ControlLight;
-            label7.ImageAlign = ContentAlignment.MiddleLeft;
-            label7.Location = new Point(12, 359);
-            label7.Name = "label7";
-            label7.Size = new Size(164, 49);
-            label7.TabIndex = 11;
-            label7.Text = "fsjdfhksjdf djkfhsdk jfsdkfjdshk fsd fhsdj fdkfdhf";
+            keyLocationsList.BackColor = SystemColors.ControlLight;
+            keyLocationsList.ImageAlign = ContentAlignment.MiddleLeft;
+            keyLocationsList.Location = new Point(12, 359);
+            keyLocationsList.Name = "keyLocationsList";
+            keyLocationsList.Size = new Size(272, 49);
+            keyLocationsList.TabIndex = 11;
+            keyLocationsList.Text = "500, 98, 484, 444, 285, 302, 73, 488, 462, 500, 98, 484, 444, 285, 302, 73, 488, 462, 148,500, 98, 484, 444, 285, 302, 73, 488, 462, 148, 148,";
             // 
             // label8
             // 
             label8.BackColor = SystemColors.ControlLight;
             label8.FlatStyle = FlatStyle.Flat;
-            label8.Location = new Point(214, 334);
+            label8.Location = new Point(290, 334);
             label8.Name = "label8";
-            label8.Size = new Size(164, 74);
+            label8.Size = new Size(88, 74);
             label8.TabIndex = 6;
             label8.TextAlign = ContentAlignment.TopCenter;
             // 
@@ -260,7 +261,7 @@
             // 
             label9.AutoSize = true;
             label9.BackColor = SystemColors.ControlLight;
-            label9.Location = new Point(257, 334);
+            label9.Location = new Point(294, 334);
             label9.Name = "label9";
             label9.Size = new Size(80, 15);
             label9.TabIndex = 10;
@@ -271,31 +272,33 @@
             rhizome_56.BackColor = SystemColors.ControlLight;
             rhizome_56.BorderStyle = BorderStyle.None;
             rhizome_56.ForeColor = Color.Red;
-            rhizome_56.Location = new Point(227, 359);
+            rhizome_56.Location = new Point(294, 359);
             rhizome_56.Name = "rhizome_56";
             rhizome_56.ReadOnly = true;
-            rhizome_56.Size = new Size(17, 16);
+            rhizome_56.Size = new Size(29, 16);
             rhizome_56.TabIndex = 12;
             rhizome_56.Text = "56";
+            rhizome_56.TextAlign = HorizontalAlignment.Center;
             // 
             // rhizome_98
             // 
             rhizome_98.BackColor = SystemColors.ControlLight;
             rhizome_98.BorderStyle = BorderStyle.None;
             rhizome_98.ForeColor = Color.Red;
-            rhizome_98.Location = new Point(261, 359);
+            rhizome_98.Location = new Point(325, 359);
             rhizome_98.Name = "rhizome_98";
             rhizome_98.ReadOnly = true;
-            rhizome_98.Size = new Size(17, 16);
+            rhizome_98.Size = new Size(22, 16);
             rhizome_98.TabIndex = 12;
             rhizome_98.Text = "98";
+            rhizome_98.TextAlign = HorizontalAlignment.Center;
             // 
             // rhizome_204
             // 
             rhizome_204.BackColor = SystemColors.ControlLight;
             rhizome_204.BorderStyle = BorderStyle.None;
             rhizome_204.ForeColor = Color.Red;
-            rhizome_204.Location = new Point(297, 359);
+            rhizome_204.Location = new Point(353, 359);
             rhizome_204.Name = "rhizome_204";
             rhizome_204.ReadOnly = true;
             rhizome_204.Size = new Size(21, 16);
@@ -307,7 +310,7 @@
             rhizome_268.BackColor = SystemColors.ControlLight;
             rhizome_268.BorderStyle = BorderStyle.None;
             rhizome_268.ForeColor = Color.Red;
-            rhizome_268.Location = new Point(342, 359);
+            rhizome_268.Location = new Point(298, 381);
             rhizome_268.Name = "rhizome_268";
             rhizome_268.ReadOnly = true;
             rhizome_268.Size = new Size(21, 16);
@@ -319,7 +322,7 @@
             rhizome_350.BackColor = SystemColors.ControlLight;
             rhizome_350.BorderStyle = BorderStyle.None;
             rhizome_350.ForeColor = Color.Red;
-            rhizome_350.Location = new Point(257, 381);
+            rhizome_350.Location = new Point(326, 381);
             rhizome_350.Name = "rhizome_350";
             rhizome_350.ReadOnly = true;
             rhizome_350.Size = new Size(21, 16);
@@ -331,7 +334,7 @@
             rhizome_476.BackColor = SystemColors.ControlLight;
             rhizome_476.BorderStyle = BorderStyle.None;
             rhizome_476.ForeColor = Color.Red;
-            rhizome_476.Location = new Point(297, 381);
+            rhizome_476.Location = new Point(353, 381);
             rhizome_476.Name = "rhizome_476";
             rhizome_476.ReadOnly = true;
             rhizome_476.Size = new Size(21, 16);
@@ -349,6 +352,16 @@
             multiplePathCheckbox.Text = "Show multiple possible paths (not only shortest)";
             multiplePathCheckbox.UseVisualStyleBackColor = false;
             // 
+            // ShowFutureCheckBox
+            // 
+            ShowFutureCheckBox.AutoSize = true;
+            ShowFutureCheckBox.Location = new Point(12, 312);
+            ShowFutureCheckBox.Name = "ShowFutureCheckBox";
+            ShowFutureCheckBox.Size = new Size(228, 19);
+            ShowFutureCheckBox.TabIndex = 5;
+            ShowFutureCheckBox.Text = "Show transitions from future locations";
+            ShowFutureCheckBox.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -362,7 +375,7 @@
             Controls.Add(rhizome_98);
             Controls.Add(rhizome_56);
             Controls.Add(label9);
-            Controls.Add(label7);
+            Controls.Add(keyLocationsList);
             Controls.Add(label6);
             Controls.Add(richTextBox1);
             Controls.Add(button1);
@@ -373,6 +386,7 @@
             Controls.Add(label3);
             Controls.Add(label5);
             Controls.Add(label2);
+            Controls.Add(ShowFutureCheckBox);
             Controls.Add(LocationNamesCheckbox);
             Controls.Add(videoRedirect);
             Controls.Add(canExitTextLabel);
@@ -415,7 +429,7 @@
         private RichTextBox richTextBox1;
         private Label label5;
         private Label label6;
-        private Label label7;
+        private Label keyLocationsList;
         private Label label8;
         private Label label9;
         private TextBox rhizome_56;
@@ -425,5 +439,6 @@
         private TextBox rhizome_350;
         private TextBox rhizome_476;
         private CheckBox multiplePathCheckbox;
+        private CheckBox ShowFutureCheckBox;
     }
 }
