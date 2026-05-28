@@ -10,14 +10,22 @@
 
   <ItemGroup>
     <None Remove="data\can_exit.txt" />
+    <None Remove="data\levelnames_edited.txt" />
     <None Remove="data\notes_eng.txt" />
+    <None Remove="data\yt_timecodes.txt" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="data\can_exit.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="data\levelnames_edited.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="data\notes_eng.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\yt_timecodes.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

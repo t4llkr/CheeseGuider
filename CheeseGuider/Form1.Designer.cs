@@ -44,7 +44,7 @@
             numericUpDown2 = new NumericUpDown();
             label4 = new Label();
             button1 = new Button();
-            richTextBox1 = new RichTextBox();
+            pathfinderResultTextBox = new RichTextBox();
             label5 = new Label();
             label6 = new Label();
             keyLocationsList = new Label();
@@ -58,6 +58,7 @@
             rhizome_476 = new TextBox();
             multiplePathCheckbox = new CheckBox();
             ShowFutureCheckBox = new CheckBox();
+            useRandomTransitionsCheckbox = new CheckBox();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDown2).BeginInit();
             SuspendLayout();
@@ -206,16 +207,16 @@
             button1.Text = "Find cheese!";
             button1.UseVisualStyleBackColor = true;
             // 
-            // richTextBox1
+            // pathfinderResultTextBox
             // 
-            richTextBox1.BorderStyle = BorderStyle.FixedSingle;
-            richTextBox1.Location = new Point(29, 76);
-            richTextBox1.Name = "richTextBox1";
-            richTextBox1.ReadOnly = true;
-            richTextBox1.ScrollBars = RichTextBoxScrollBars.None;
-            richTextBox1.Size = new Size(563, 54);
-            richTextBox1.TabIndex = 1;
-            richTextBox1.Text = "";
+            pathfinderResultTextBox.BorderStyle = BorderStyle.FixedSingle;
+            pathfinderResultTextBox.Location = new Point(29, 76);
+            pathfinderResultTextBox.Name = "pathfinderResultTextBox";
+            pathfinderResultTextBox.ReadOnly = true;
+            pathfinderResultTextBox.ScrollBars = RichTextBoxScrollBars.Vertical;
+            pathfinderResultTextBox.Size = new Size(563, 54);
+            pathfinderResultTextBox.TabIndex = 1;
+            pathfinderResultTextBox.Text = "";
             // 
             // label5
             // 
@@ -245,7 +246,6 @@
             keyLocationsList.Name = "keyLocationsList";
             keyLocationsList.Size = new Size(272, 49);
             keyLocationsList.TabIndex = 11;
-            keyLocationsList.Text = "500, 98, 484, 444, 285, 302, 73, 488, 462, 500, 98, 484, 444, 285, 302, 73, 488, 462, 148,500, 98, 484, 444, 285, 302, 73, 488, 462, 148, 148,";
             // 
             // label8
             // 
@@ -272,7 +272,7 @@
             rhizome_56.BackColor = SystemColors.ControlLight;
             rhizome_56.BorderStyle = BorderStyle.None;
             rhizome_56.ForeColor = Color.Red;
-            rhizome_56.Location = new Point(294, 359);
+            rhizome_56.Location = new Point(293, 359);
             rhizome_56.Name = "rhizome_56";
             rhizome_56.ReadOnly = true;
             rhizome_56.Size = new Size(29, 16);
@@ -285,7 +285,7 @@
             rhizome_98.BackColor = SystemColors.ControlLight;
             rhizome_98.BorderStyle = BorderStyle.None;
             rhizome_98.ForeColor = Color.Red;
-            rhizome_98.Location = new Point(325, 359);
+            rhizome_98.Location = new Point(324, 359);
             rhizome_98.Name = "rhizome_98";
             rhizome_98.ReadOnly = true;
             rhizome_98.Size = new Size(22, 16);
@@ -345,7 +345,7 @@
             // 
             multiplePathCheckbox.AutoSize = true;
             multiplePathCheckbox.BackColor = SystemColors.ControlLight;
-            multiplePathCheckbox.Location = new Point(196, 35);
+            multiplePathCheckbox.Location = new Point(196, 30);
             multiplePathCheckbox.Name = "multiplePathCheckbox";
             multiplePathCheckbox.Size = new Size(280, 19);
             multiplePathCheckbox.TabIndex = 13;
@@ -362,11 +362,23 @@
             ShowFutureCheckBox.Text = "Show transitions from future locations";
             ShowFutureCheckBox.UseVisualStyleBackColor = true;
             // 
+            // useRandomTransitionsCheckbox
+            // 
+            useRandomTransitionsCheckbox.AutoSize = true;
+            useRandomTransitionsCheckbox.BackColor = SystemColors.ControlLight;
+            useRandomTransitionsCheckbox.Location = new Point(196, 51);
+            useRandomTransitionsCheckbox.Name = "useRandomTransitionsCheckbox";
+            useRandomTransitionsCheckbox.Size = new Size(204, 19);
+            useRandomTransitionsCheckbox.TabIndex = 14;
+            useRandomTransitionsCheckbox.Text = "Allow random transitions in paths";
+            useRandomTransitionsCheckbox.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(624, 441);
+            Controls.Add(useRandomTransitionsCheckbox);
             Controls.Add(multiplePathCheckbox);
             Controls.Add(rhizome_476);
             Controls.Add(rhizome_350);
@@ -377,7 +389,7 @@
             Controls.Add(label9);
             Controls.Add(keyLocationsList);
             Controls.Add(label6);
-            Controls.Add(richTextBox1);
+            Controls.Add(pathfinderResultTextBox);
             Controls.Add(button1);
             Controls.Add(numericUpDown2);
             Controls.Add(numericUpDown1);
@@ -426,7 +438,7 @@
         private NumericUpDown numericUpDown2;
         private Label label4;
         private Button button1;
-        private RichTextBox richTextBox1;
+        private RichTextBox pathfinderResultTextBox;
         private Label label5;
         private Label label6;
         private Label keyLocationsList;
@@ -440,5 +452,6 @@
         private TextBox rhizome_476;
         private CheckBox multiplePathCheckbox;
         private CheckBox ShowFutureCheckBox;
+        private CheckBox useRandomTransitionsCheckbox;
     }
 }

@@ -1,12 +1,5 @@
-using Accessibility;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.IO;
-using System.Linq;
-using System.Numerics;
 using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading;
 
 namespace CheeseGuider
 {
@@ -69,15 +62,19 @@ namespace CheeseGuider
         int LevelId = 999;
         string[] lines;
         string[] exits;
+        string[] names;
+        string[] timecodes;
         string[] thereIsNoGame = {
             "GAME CLOSED CODE RED CODE RED",
             "THERE IS NO GAME!!!",
-            "No game - no info",
+            "No game = no info",
             "Launch the game plz",
             "i see nothing y'know, launch the game",
-            "Hey, you. You're finally awake",
-            "cheese is eaten, but i need more",
-            "WHERE'S THE GAME WHERE'S THE GAME AAAAAAAAAAAAAAHHHHH"
+            //"Hey, you. You're finally awake",
+            //"cheese is eaten, but i need more",
+            "WHERE'S THE GAME WHERE IS IT AAAAAAAAAAAAAAHHHHH",
+            "cheese closed im blind yknow",
+            "im very hungry where my chmeese"
         };
         int[] keyLocations =
         {
@@ -91,6 +88,11 @@ namespace CheeseGuider
         int[] rhizomeLocs = { 56, 98, 204, 268, 350, 476 };
         int currentRhizomeLoc = 0;
         string transitionsDefault;
+        string transitionsFromFuture;
+        string transitionsWithNames;
+        string transitionsFromFutureWithNames;
+        string journeyHistoryDefault;
+        string journeyHistoryWithNames;
 
         public void prepareData()
         {
@@ -101,11 +103,15 @@ namespace CheeseGuider
                 lines[i] = "ï " + splittedLine.Replace("; ", "\nï ");
             }
             exits = File.ReadAllText(@"data/can_exit.txt").Split(" ");
+            names = File.ReadAllLines(@"data/levelnames_edited.txt");
+            timecodes = File.ReadAllLines(@"data/yt_timecodes.txt");
         }
 
         public Form1()
         {
             InitializeComponent();
+            StartPosition = FormStartPosition.Manual;
+            Location = new Point(80, 60);
             timer.Tick += new EventHandler(IdRefresh);
             timer.Interval = 19;
             timer.Start();
@@ -129,15 +135,47 @@ namespace CheeseGuider
                     idlabel.Text = LevelId.ToString();
                     if (journeyHistory.Text == "")
                     {
-                        journeyHistory.Text = "Journey history:\n" + LevelId.ToString();
+                        journeyHistoryDefault = "Journey history:\n" + LevelId.ToString();
+                        journeyHistoryWithNames = "Journey history:\n" + names[LevelId-1];
                     }
                     else
                     {
-                        journeyHistory.Text += " -> " + LevelId.ToString();
+                        journeyHistoryDefault += " -> " + LevelId.ToString();
+                        journeyHistoryWithNames += " -> " + names[LevelId - 1];
                     }
+                    journeyHistory.Text = journeyHistoryDefault;
                     int transitionsCount = lines[id].Split("\n").Length;
-                    transitionsList.Text = "Possible transitions: " + transitionsCount.ToString() + "\n" + lines[id];
-                    transitionsDefault = transitionsList.Text;
+                    transitionsDefault = "Possible transitions: " + transitionsCount.ToString() + "\n" + lines[id];
+                    //!—Œ«ƒ¿¬¿“‹ Õ¿¡Œ– œ≈–≈’ŒƒŒ¬ ƒÀﬂ ¡”ƒ”Ÿ»’ ÀŒ ¿÷»…
+                    //+œŒ»—  ◊»—≈À œŒ—À≈ ->; ≈—À» «Õ¿ ¿ Õ≈“, ¡–¿“‹ œŒ—À≈ ". "
+                    //+Õ≈ ¡–¿“‹ ¬ ”◊®“ ÃÕŒ∆≈—“¬≈ÕÕ€≈ ¬¿–»¿Õ“€ (–¿ÕƒŒÃÕ€≈ œ≈–≈’Œƒ€ »À» — œ–»œ»— ¿Ã»)
+                    //+¬«ﬂ“‹ ◊¿—“Õ€… —À”◊¿… — 119 (’« «¿◊≈Ã, œ”— ¿… ¡”ƒ≈“ œ¿—’¿À Œ…)
+                    transitionsFromFuture = LevelId.ToString()+". "+transitionsDefault;
+                    /*foreach (string tLine in lines[id].Split("\n"))
+                    {
+                        string nextLevelStr;
+                        string[] nextLevelSpl = tLine.Split("-> ");
+                        pathfinderResultTextBox.Text += nextLevelSpl.Length;
+                        if (nextLevelSpl.Length == 1)
+                            nextLevelStr = tLine.Split(". ")[1];
+                        else
+                            nextLevelStr = nextLevelSpl[1];
+                        bool allowToUseNumber = false;
+                        foreach (string num in names)
+                        {
+                            if (num.Split(". ")[0] == nextLevelStr)
+                                allowToUseNumber = true;
+                            break;
+                        }
+                        int nextLevel = 999;
+                        if (allowToUseNumber)
+                            nextLevel = Convert.ToInt32(nextLevelStr);
+                            transitionsFromFuture += "\n\n"+nextLevel.ToString()+". Possible transitions: ";
+                            transitionsFromFuture += lines[nextLevel-1].Split("\n").Length.ToString() + "\n" + lines[nextLevel-1];
+                    }*/
+                    //!Œ“ƒ≈À‹Õ€≈ “»œ€ —œ»— ¿ œ≈–≈’ŒƒŒ¬:
+                    //+œ–» √¿ÀŒ◊ ≈ Õ¿ »Ã≈Õ¿ ÀŒ ¿÷»…
+                    //+œ–» Œ¡Œ»’ √¿ÀŒ◊ ¿’ (»Ã≈Õ¿ + ¡”ƒ”Ÿ»≈ ÀŒ ¿÷»»)
                     foreach (string exit in exits)
                     {
                         int exitInt = Convert.ToInt32(exit) - 1;
@@ -182,12 +220,23 @@ namespace CheeseGuider
                 }
                 if (ShowFutureCheckBox.Checked)
                 {
-                    //ËÁÏÂÌÂÌËÂ ÚËÔ‡ ÓÚÓ·‡ÊÂÌËˇ
-                    transitionsList.Text = "a";
+                    if (transitionsFromFuture != transitionsList.Text)
+                        transitionsList.Text = transitionsFromFuture;
                 }
                 if (!ShowFutureCheckBox.Checked)
                 {
-                    transitionsList.Text = transitionsDefault;
+                    if (transitionsDefault != transitionsList.Text)
+                        transitionsList.Text = transitionsDefault;
+                }
+                if (LocationNamesCheckbox.Checked)
+                {
+                    if (journeyHistoryWithNames != journeyHistory.Text)
+                    journeyHistory.Text = journeyHistoryWithNames;
+                }
+                if (!LocationNamesCheckbox.Checked)
+                {
+                    if (journeyHistoryDefault != journeyHistory.Text)
+                        journeyHistory.Text = journeyHistoryDefault;
                 }
             }
             catch (Exception ex)
@@ -202,6 +251,16 @@ namespace CheeseGuider
                     journeyHistory.Text = "";
                     keyLocationsList.Text = "";
                     LevelId = 999;
+                    rhizome_56.ForeColor = Color.Red;
+                    rhizome_98.ForeColor = Color.Red;
+                    rhizome_204.ForeColor = Color.Red;
+                    rhizome_268.ForeColor = Color.Red;
+                    rhizome_350.ForeColor = Color.Red;
+                    rhizome_476.ForeColor = Color.Red;
+                    transitionsDefault = "";
+                    transitionsFromFuture = "";
+                    journeyHistoryDefault = "";
+                    journeyHistoryWithNames = "";
                 }
             }
         }
