@@ -1,5 +1,6 @@
 using System.Diagnostics;
 using System.Runtime.InteropServices;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace CheeseGuider
 {
@@ -56,7 +57,9 @@ namespace CheeseGuider
             return BitConverter.ToInt32(ReadBytes(address, 4));
         }
 
-
+        //!ÏÐÎÂÅÐÈÒÜ, ÊÀÊ ÐÀÁÎÒÀÞÒ ÐÅÆÈÌÛ ÎÒÎÁÐÀÆÅÍÈß Ñ ÃÀËÊÀÌÈ
+        //!+ÏÐÈ ÂÛÕÎÄÅ È ÏÎÂÒÎÐÍÎÌ ÇÀÏÓÑÊÅ ÈÃÐÛ
+        //!ÈÍÎÃÄÀ ×ÈÇÃÀÉÄÅÐ ÊÐÀØÈÒÑß ÏÐÈ ÄÅÁÀÃÅ (ÍÅ ÍÀÕÎÄÈÒ ÈÃÐÓ ÂÎ ÂÐÅÌß ÇÀÏÓÑÊÀ)
         Random random = new Random();
         int noGameIndex;
         int LevelId = 999;
@@ -90,7 +93,7 @@ namespace CheeseGuider
         string transitionsDefault;
         string transitionsFromFuture;
         string transitionsWithNames;
-        string transitionsFromFutureWithNames;
+        string transitionsFromFutureWithNames = "FUTURE IS SO BRIGHT";
         string journeyHistoryDefault;
         string journeyHistoryWithNames;
 
@@ -141,41 +144,78 @@ namespace CheeseGuider
                     else
                     {
                         journeyHistoryDefault += " -> " + LevelId.ToString();
-                        journeyHistoryWithNames += " -> " + names[LevelId - 1];
+                        journeyHistoryWithNames += "\n" + names[LevelId - 1];
                     }
                     journeyHistory.Text = journeyHistoryDefault;
                     int transitionsCount = lines[id].Split("\n").Length;
                     transitionsDefault = "Possible transitions: " + transitionsCount.ToString() + "\n" + lines[id];
-                    //!ÑÎÇÄÀÂÀÒÜ ÍÀÁÎÐ ÏÅÐÅÕÎÄÎÂ ÄËß ÁÓÄÓÙÈÕ ËÎÊÀÖÈÉ
-                    //+ÏÎÈÑÊ ×ÈÑÅË ÏÎÑËÅ ->; ÅÑËÈ ÇÍÀÊÀ ÍÅÒ, ÁÐÀÒÜ ÏÎÑËÅ ". "
-                    //+ÍÅ ÁÐÀÒÜ Â Ó×¨Ò ÌÍÎÆÅÑÒÂÅÍÍÛÅ ÂÀÐÈÀÍÒÛ (ÐÀÍÄÎÌÍÛÅ ÏÅÐÅÕÎÄÛ ÈËÈ Ñ ÏÐÈÏÈÑÊÀÌÈ)
-                    //+ÂÇßÒÜ ×ÀÑÒÍÛÉ ÑËÓ×ÀÉ Ñ 119 (ÕÇ ÇÀ×ÅÌ, ÏÓÑÊÀÉ ÁÓÄÅÒ ÏÀÑÕÀËÊÎÉ)
-                    transitionsFromFuture = LevelId.ToString()+". "+transitionsDefault;
-                    /*foreach (string tLine in lines[id].Split("\n"))
+                    transitionsFromFuture = LevelId.ToString() + ". " + transitionsDefault;
+                    transitionsWithNames = "Possible transitions: " + transitionsCount.ToString() + "\n";
+                    transitionsFromFutureWithNames = LevelId.ToString() + ". " + transitionsWithNames;
+                    foreach (string ttt in lines[id].Split("\n"))
                     {
-                        string nextLevelStr;
-                        string[] nextLevelSpl = tLine.Split("-> ");
-                        pathfinderResultTextBox.Text += nextLevelSpl.Length;
-                        if (nextLevelSpl.Length == 1)
-                            nextLevelStr = tLine.Split(". ")[1];
-                        else
-                            nextLevelStr = nextLevelSpl[1];
-                        bool allowToUseNumber = false;
-                        foreach (string num in names)
-                        {
-                            if (num.Split(". ")[0] == nextLevelStr)
-                                allowToUseNumber = true;
-                            break;
+                        string tttt;
+                        if (ttt.Contains("->")) {
+                            tttt = ttt.Split("->")[0] + "-> " + names[Convert.ToInt32(ttt.Split("->")[1].Trim())-1];
                         }
-                        int nextLevel = 999;
+                        else
+                        {
+                            tttt = "• " + names[Convert.ToInt32(ttt.Split(" ")[1])-1];
+                        }
+                        transitionsFromFutureWithNames += tttt + "\n";
+                    }
+                    foreach (string tLine in lines[id].Split("\n"))
+                    {
+                        string trimmed;
+                        string before;
+                        bool allowToUseNumber = true;
+                        if (tLine.Contains("->"))
+                        {
+                            trimmed = tLine.Split("->")[1].Trim();
+                            before = tLine.Split("->")[0] + "-> ";
+                        }
+                        else
+                        {
+                            trimmed = tLine[2..].Trim();
+                            before = "• ";
+                        }
+                        foreach (string name in names)
+                        {
+                            string num = name.Split('.')[0];
+                            if (num == trimmed)
+                            {
+                                allowToUseNumber = true;
+                                break;
+                            } 
+                        }
                         if (allowToUseNumber)
-                            nextLevel = Convert.ToInt32(nextLevelStr);
-                            transitionsFromFuture += "\n\n"+nextLevel.ToString()+". Possible transitions: ";
-                            transitionsFromFuture += lines[nextLevel-1].Split("\n").Length.ToString() + "\n" + lines[nextLevel-1];
-                    }*/
-                    //!ÎÒÄÅËÜÍÛÅ ÒÈÏÛ ÑÏÈÑÊÀ ÏÅÐÅÕÎÄÎÂ:
-                    //+ÏÐÈ ÃÀËÎ×ÊÅ ÍÀ ÈÌÅÍÀ ËÎÊÀÖÈÉ
-                    //+ÏÐÈ ÎÁÎÈÕ ÃÀËÎ×ÊÀÕ (ÈÌÅÍÀ + ÁÓÄÓÙÈÅ ËÎÊÀÖÈÈ)
+                        {
+                            int nextLevel = Convert.ToInt32(trimmed);
+                            transitionsWithNames += before + names[nextLevel-1] + "\n";
+                            transitionsFromFuture += "\n\n" + nextLevel.ToString() + ". Possible transitions: ";
+                            transitionsFromFuture += lines[nextLevel - 1].Split("\n").Length.ToString() + "\n" + lines[nextLevel - 1];
+                            transitionsFromFutureWithNames += "\n" + names[nextLevel - 1] + ". Possible transitions: ";
+                            string[] fnLines = lines[nextLevel - 1].Split("\n");
+                            transitionsFromFutureWithNames += fnLines.Length.ToString() + "\n";
+                            foreach (string t in fnLines)
+                            {
+                                string firsthalf;
+                                string secondhalf;
+                                if (t.Contains("->"))
+                                {
+                                    string[] fnSplit = t.Split("->");
+                                    firsthalf = fnSplit[0] + "-> ";
+                                    secondhalf = names[Convert.ToInt32(fnSplit[1].Trim())-1];
+                                }
+                                else
+                                {
+                                    firsthalf = "• ";
+                                    secondhalf = names[Convert.ToInt32(t.Split(" ")[1].Trim())-1];
+                                }
+                                transitionsFromFutureWithNames += firsthalf + secondhalf + "\n";
+                            }
+                        }
+                    }
                     foreach (string exit in exits)
                     {
                         int exitInt = Convert.ToInt32(exit) - 1;
@@ -218,25 +258,35 @@ namespace CheeseGuider
                         if (currentRhizomeLoc == 476) rhizome_476.ForeColor = Color.Green; else rhizome_476.ForeColor = Color.Red;
                     }
                 }
-                if (ShowFutureCheckBox.Checked)
-                {
-                    if (transitionsFromFuture != transitionsList.Text)
-                        transitionsList.Text = transitionsFromFuture;
-                }
-                if (!ShowFutureCheckBox.Checked)
-                {
-                    if (transitionsDefault != transitionsList.Text)
-                        transitionsList.Text = transitionsDefault;
-                }
                 if (LocationNamesCheckbox.Checked)
                 {
                     if (journeyHistoryWithNames != journeyHistory.Text)
-                    journeyHistory.Text = journeyHistoryWithNames;
+                        journeyHistory.Text = journeyHistoryWithNames;
+                    if (ShowFutureCheckBox.Checked)
+                    {
+                        if (transitionsFromFutureWithNames != transitionsList.Text)
+                            transitionsList.Text = transitionsFromFutureWithNames;
+                    }
+                    else
+                    {
+                        if (transitionsWithNames != transitionsList.Text)
+                            transitionsList.Text = transitionsWithNames;
+                    }
                 }
-                if (!LocationNamesCheckbox.Checked)
+                else
                 {
                     if (journeyHistoryDefault != journeyHistory.Text)
                         journeyHistory.Text = journeyHistoryDefault;
+                    if (ShowFutureCheckBox.Checked)
+                    {
+                        if (transitionsFromFuture != transitionsList.Text)
+                            transitionsList.Text = transitionsFromFuture;
+                    }
+                    else
+                    {
+                        if (transitionsDefault != transitionsList.Text)
+                            transitionsList.Text = transitionsDefault;
+                    }
                 }
             }
             catch (Exception ex)
